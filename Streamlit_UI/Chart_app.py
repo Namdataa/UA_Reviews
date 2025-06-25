@@ -27,7 +27,7 @@ def dashboard():
             b64 = base64.b64encode(img_file.read()).decode()
         return b64
 
-    logo_b64 = get_base64_logo(r""Image/united_logo.png")
+    logo_b64 = get_base64_logo(r"Image/united_logo.png")
 
     st.markdown("""
         <style>
