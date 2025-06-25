@@ -201,7 +201,7 @@ def chatbot():
     
     # ==== Prompt Input Form ====
     with prompt_placeholder:
-        st.markdown("**Type your question here:**")
+        st.markdown("**Ask Me:**")
         cols = st.columns((9.5, 1.5))
         cols[0].text_input(
             "Chat",
