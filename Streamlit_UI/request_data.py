@@ -14,3 +14,9 @@ def load_data():
     processed_s3_path = f"{bucket_path}/processed_data.parquet"
     df= pd.read_parquet(processed_s3_path, storage_options=storage_options)
     return df
+    
+# Header gradient với logo base64, màu nền mới, logo lớn hơn
+def get_base64_logo(path=r"Image/united_logo.png"):
+    with open(path, "rb") as img_file:
+        b64 = base64.b64encode(img_file.read()).decode()
+    return b64
