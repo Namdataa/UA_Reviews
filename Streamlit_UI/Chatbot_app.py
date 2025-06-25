@@ -87,7 +87,7 @@ def chatbot():
 """)
     if emotion_class:
         st.session_state["emotionClass"] = emotion_class
-    st.title("🧠 Chatbot Gemini - Tùy biến giao diện")
+    st.title("🧠 Chat with AI - United Airlines")
     
     # Chat Container
     chat_placeholder = st.container()
