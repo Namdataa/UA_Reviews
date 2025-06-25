@@ -10,6 +10,7 @@ from typing import Literal
 from core.config import google_api
 from Chatbot.ChromaDB import vector_store, document_content_description, metadata_field_info, df
 from Chatbot.main import chain
+from Streamlit_UI.request_data import get_base64_logo
 import sys
 
 __import__('pysqlite3')
@@ -151,7 +152,9 @@ def chatbot():
     
     USER_AVATAR = r"Image/user_icon.png"
     BOT_AVATAR = r"Image/ai_icon.png" 
-
+    
+    logo_b64 = get_base64_logo(r"Image/united_logo.png")
+    
     os.environ["GOOGLE_API_KEY"] = google_api
 
     llm= ChatGoogleGenerativeAI(
