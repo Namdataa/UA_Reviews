@@ -22,12 +22,12 @@ def dashboard():
     df = load_data()
 
     # Header gradient với logo base64, màu nền mới, logo lớn hơn
-    def get_base64_logo(path=r"UA_United\united_logo.png"):
+    def get_base64_logo(path=r"Image/united_logo.png"):
         with open(path, "rb") as img_file:
             b64 = base64.b64encode(img_file.read()).decode()
         return b64
 
-    logo_b64 = get_base64_logo(r"UA_United\united_logo.png")
+    logo_b64 = get_base64_logo(r""Image/united_logo.png")
 
     st.markdown("""
         <style>
