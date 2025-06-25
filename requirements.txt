@@ -20,7 +20,7 @@ build
 cachetools
 certifi
 charset-normalizer
-chromadb
+chromadb==0.3.29
 click
 colorama
 coloredlogs
