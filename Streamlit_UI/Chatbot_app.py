@@ -113,7 +113,7 @@ def chatbot():
     # ==== Prompt Input Form ====
     with prompt_placeholder:
         st.markdown("**Nhập nội dung cần hỏi:**")
-        cols = st.columns((10, 1))
+        cols = st.columns((9.5, 1.5))
         cols[0].text_input(
             "Chat",
             value="",
