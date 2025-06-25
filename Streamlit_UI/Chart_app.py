@@ -11,6 +11,7 @@ from Plot_chart.all_plots import (
     get_top_keywords, plot_experience_donut_chart, get_sample_reviews_by_experience
 )
 from Streamlit_UI.request_data import load_data
+from Streamlit_UI.request_data import get_base64_logo
 import base64
 import sys
 
