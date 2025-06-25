@@ -12,6 +12,10 @@ from Plot_chart.all_plots import (
 )
 from Streamlit_UI.request_data import load_data
 import base64
+import sys
+
+__import__('pysqlite3')
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 def dashboard(): 
     # Tải dữ liệu từ S3
