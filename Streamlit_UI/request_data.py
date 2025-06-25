@@ -1,6 +1,7 @@
 import pandas as pd
 from core.config import key, secret
 import streamlit as st
+import base64
 
 @st.cache_data
 def load_data():
