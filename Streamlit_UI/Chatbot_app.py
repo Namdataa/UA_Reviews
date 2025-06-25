@@ -10,6 +10,10 @@ from typing import Literal
 from core.config import google_api
 from Chatbot.ChromaDB import vector_store, document_content_description, metadata_field_info, df
 from Chatbot.main import chain
+import sys
+
+__import__('pysqlite3')
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 def chatbot():
     USER_AVATAR = r"UA_United\user_icon.png"
