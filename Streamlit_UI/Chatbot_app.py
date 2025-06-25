@@ -16,8 +16,8 @@ __import__('pysqlite3')
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 def chatbot():
-    USER_AVATAR = r"UA_United\user_icon.png"
-    BOT_AVATAR = r"UA_United\ai_icon.png" 
+    USER_AVATAR = r"Image/user_icon.png"
+    BOT_AVATAR = r"Image/ai_icon.png" 
 
     os.environ["GOOGLE_API_KEY"] = google_api
 
