@@ -155,4 +155,4 @@ vector_store = Chroma(
     persist_directory=r"Chatbot\Chroma",
     embedding_function=embedding_model
 )
-vector_store.add_documents(documents=documents, ids=ids)
+#vector_store.add_documents(documents=documents, ids=ids)
