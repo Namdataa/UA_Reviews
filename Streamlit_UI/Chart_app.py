@@ -10,7 +10,7 @@ from Plot_chart.all_plots import (
     plot_top15_countries_by_review_count, plot_seat_type_bar_line, plot_traveller_type_bar_line,
     get_top_keywords, plot_experience_donut_chart, get_sample_reviews_by_experience
 )
-from request_data import load_data
+from Streamlit_UI.request_data import load_data
 import base64
 
 def dashboard(): 
