@@ -220,7 +220,17 @@ def chatbot():
 """)
     if emotion_class:
         st.session_state["emotionClass"] = emotion_class
-    st.title("🧠 Chat with AI - United Airlines")
+    st.markdown(f"""
+        <div class="header-gradient">
+            <div class="header-title">
+                <img src="data:image/png;base64,{logo_b64}" class="logo-img" alt="Logo" />
+                Chat with AI - United Airlines
+            </div>
+            <div class="header-desc">
+               🧠 To help you learn more about United Airlines
+            </div>
+        </div>
+    """, unsafe_allow_html=True)
     
     # Chat Container
     chat_placeholder = st.container()
