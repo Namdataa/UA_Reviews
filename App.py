@@ -7,7 +7,7 @@ import sys
 __import__('pysqlite3')
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 def main():
-    st.set_page_config(page_title="United Airlines Reviews", page_icon=r"E:\UA_United\united_pageicon.png", layout="wide")
+    st.set_page_config(page_title="United Airlines Reviews", page_icon=r"Image/united_pageicon.png", layout="wide")
     with st.sidebar:
         selected = option_menu(
             menu_title="Main Menu",
