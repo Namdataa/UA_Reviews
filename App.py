@@ -2,6 +2,10 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 from Streamlit_UI.Chart_app import dashboard
 from Streamlit_UI.Chatbot_app import chatbot
+import sys
+
+__import__('pysqlite3')
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 def main():
     st.set_page_config(page_title="United Airlines Reviews", page_icon=r"E:\UA_United\united_pageicon.png", layout="wide")
     with st.sidebar:
