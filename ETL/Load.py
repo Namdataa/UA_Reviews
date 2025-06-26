@@ -2,7 +2,7 @@ from ETL.Extract import extract
 from ETL.Transform import transform, feature_engineer
 import logging
 import pandas as pd
-from config import key, secret
+from core.config import key, secret
 headers = {
 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"}
 
