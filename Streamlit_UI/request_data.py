@@ -3,7 +3,7 @@ from core.config import key, secret
 import streamlit as st
 import base64
 
-@st.cache_data(ttl=604800) # Để 10s nó sẽ reload lại data khi click vào từng task nó sẽ tự load
+@st.cache_data(ttl=604800) # Để 1 tuần nó sẽ reload lại data khi click vào từng task nó sẽ tự load hợp với ETL data vào S3 1 tuần
 def load_data():
     storage_options={
     "key": key,
