@@ -3,7 +3,7 @@ from core.config import key, secret
 import streamlit as st
 import base64
 
-@st.cache_data
+@st.cache_data(ttl=10)
 def load_data():
     storage_options={
     "key": key,
