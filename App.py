@@ -5,9 +5,9 @@ from Streamlit_UI.Chatbot_app import chatbot
 import sys
 
 __import__('pysqlite3')
+st.set_page_config(page_title="United Airlines Reviews", page_icon=r"Image/united_pageicon.png", layout="wide")
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 def main():
-    st.set_page_config(page_title="United Airlines Reviews", page_icon=r"Image/united_pageicon.png", layout="wide")
     with st.sidebar:
         selected = option_menu(
             menu_title="Main Menu",
