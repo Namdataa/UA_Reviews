@@ -3,7 +3,7 @@ from core.config import key, secret
 import streamlit as st
 import base64
 
-@st.cache_data(ttl=10)
+@st.cache_data(ttl=10) # Để 10s nó sẽ reload lại data khi click vào từng task nó sẽ tự load
 def load_data():
     storage_options={
     "key": key,
