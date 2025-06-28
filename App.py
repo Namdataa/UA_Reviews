@@ -1,11 +1,11 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-from Streamlit_UI.Chart_app import dashboard
-from Streamlit_UI.Chatbot_app import chatbot
+
+st.set_page_config(page_title="United Airlines Reviews", page_icon=r"Image/united_pageicon.png", layout="wide") # Yêu cầu chạy đầu tiên
+
+from Streamlit_UI.Chart_app import dashboard # Đã có st. nên phải chạy sau
+from Streamlit_UI.Chatbot_app import chatbot # Đã có st. nên phải chạy sau
 import sys
-
-st.set_page_config(page_title="United Airlines Reviews", page_icon=r"Image/united_pageicon.png", layout="wide")
-
 __import__('pysqlite3')
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 def main():
