@@ -2,7 +2,7 @@
 
 Access our Streamlit [Dashboard Website](https://ua-reviews.streamlit.app/)
 
-# British Airways Review (Phase 1)
+# United Airlines Review (Phase 1)
 
 **End-to-end Analytics Project for United Airlines:** Analyze Customer Experience
 This project will simulate a data team at British Airways, from ETL to Business Intelligence and Data Science. We will extract real-time data from [Air Inequality](https://www.airlinequality.com/airline-reviews/united-airlines), and perform 4 types of modern analytics to find insightful recommendations.
@@ -11,7 +11,7 @@ This project will simulate a data team at British Airways, from ETL to Business 
 ![image](https://github.com/user-attachments/assets/bfdfbd3b-16e3-4d7c-b478-797e1f05cdcf)
 
 
-# British Airways Review (Phase 2)
+# United Airlines Review (Phase 2)
 
 **RAG chatbot for United Airlines:** Analyze Customer Review with a RAG chatbot
 The **RAG Chatbot for United Airlines** utilizes cutting-edge technology stacks like **Chroma DB** and **LangChain**. **Chroma DB** serves as the vector database, enabling efficient storage and retrieval of customer review embeddings. **LangChain** powers the chatbot's integration of retrieval and generative AI, allowing for contextually accurate responses. This combination ensures fast, intelligent analysis of customer reviews, enhancing United Airlines ability to address feedback and improve customer satisfaction.
