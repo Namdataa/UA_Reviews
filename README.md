@@ -5,7 +5,7 @@ Access our Streamlit [Dashboard Website](https://ua-reviews.streamlit.app/)
 # United Airlines Review (Phase 1)
 
 **End-to-end Analytics Project for United Airlines:** Analyze Customer Experience
-This project will simulate a data team at British Airways, from ETL to Business Intelligence and Data Science. We will extract real-time data from [Air Inequality](https://www.airlinequality.com/airline-reviews/united-airlines), and perform 4 types of modern analytics to find insightful recommendations.
+This project will simulate a data team at United Airlines, from ETL to Business Intelligence and Data Science. We will extract real-time data from [Air Inequality](https://www.airlinequality.com/airline-reviews/united-airlines), and perform 4 types of modern analytics to find insightful recommendations.
 
 **Example Analysis**
 ![image](https://github.com/user-attachments/assets/bfdfbd3b-16e3-4d7c-b478-797e1f05cdcf)
