@@ -1,5 +1,7 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
+import os
+os.environ["STREAMLIT_WATCHER_TYPE"] = "none"
 
 st.set_page_config(page_title="United Airlines Reviews", page_icon=r"Image/united_pageicon.png", layout="wide") # Yêu cầu chạy đầu tiên
 
