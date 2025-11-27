@@ -11,7 +11,7 @@ def load_data():
     "client_kwargs": {
         "region_name": "ap-southeast-1"  # Ví dụ: khu vực Singapore
     }}
-    bucket_path = "s3://united-airlines-nam-project"
+    bucket_path = "s3://united-airlines-nam"
     processed_s3_path = f"{bucket_path}/processed_data.parquet"
     df= pd.read_parquet(processed_s3_path, storage_options=storage_options)
     return df
