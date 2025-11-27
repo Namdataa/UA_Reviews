@@ -32,7 +32,7 @@ def main():
     df.to_parquet(clean_s3_path, engine="pyarrow", index=False, storage_options=storage_options)
     logging.info("Cleaned data saved to S3.")
     #Read file airport list
-    airport_list = f"{bucket_path}/airport_iata.csv"
+    airport_list = f"{bucket_path}/Airport.csv"
     df_airport = pd.read_csv(airport_list, storage_options=storage_options)
     # Feature Engineering
     df = feature_engineer(df,df_airport)
